@@ -37,37 +37,37 @@ echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara reiniciar o caixa 05\033[0;32m."
 read opcion
 case $opcion in
-01) ./CliPDVs/reiniciar_cx_01.sh;;
-02) ./CliPDVs/reiniciar_cx_02.sh;;
-03) ./CliPDVs/reiniciar_cx_03.sh;;
-04) ./CliPDVs/reiniciar_cx_04.sh;;
-05) ./CliPDVs/reiniciar_cx_05.sh;;
-06) ./CliPDVs/reiniciar_cx_06.sh;;
-07) ./CliPDVs/reiniciar_cx_07.sh;;
-08) ./CliPDVs/reiniciar_cx_08.sh;;
-09) ./CliPDVs/reiniciar_cx_09.sh;;
-10) ./CliPDVs/reiniciar_cx_10.sh;;
-11) ./CliPDVs/reiniciar_cx_11.sh;;
-12) ./CliPDVs/reiniciar_cx_12.sh;;
-13) ./CliPDVs/reiniciar_cx_13.sh;;
-14) ./CliPDVs/reiniciar_cx_14.sh;;
-15) ./CliPDVs/reiniciar_cx_15.sh;;
-16) ./CliPDVs/reiniciar_cx_16.sh;;
-17) ./CliPDVs/reiniciar_cx_17.sh;;
-18) ./CliPDVs/reiniciar_cx_18.sh;;
-19) ./CliPDVs/reiniciar_cx_19.sh;;
-20) ./CliPDVs/reiniciar_cx_20.sh;;
-21) ./CliPDVs/reiniciar_cx_21.sh;;
-lan) ./CliPDVs/reiniciar_lan.sh;;
-e1) ./CliPDVs/reiniciar_e01.sh;;
-e2) ./CliPDVs/reiniciar_e02.sh;;
-25) ./CliPDVs/reiniciar_cx_25.sh;;
-bot) ./CliPDVs/reiniciar_bot.sh;;
-todos) ./CliPDVs/reiniciar_todos.sh;;
+01) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_01.sh;;
+02) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_02.sh;;
+03) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_03.sh;;
+04) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_04.sh;;
+05) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_05.sh;;
+06) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_06.sh;;
+07) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_07.sh;;
+08) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_08.sh;;
+09) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_09.sh;;
+10) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_10.sh;;
+11) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_11.sh;;
+12) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_12.sh;;
+13) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_13.sh;;
+14) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_14.sh;;
+15) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_15.sh;;
+16) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_16.sh;;
+17) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_17.sh;;
+18) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_18.sh;;
+19) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_19.sh;;
+20) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_20.sh;;
+21) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_21.sh;;
+lan) ./CliPDVs/reiniciar_pdvs/reiniciar_lan.sh;;
+e1) ./CliPDVs/reiniciar_pdvs/reiniciar_e01.sh;;
+e2) ./CliPDVs/reiniciar_pdvs/reiniciar_e02.sh;;
+25) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_25.sh;;
+bot) ./CliPDVs/reiniciar_pdvs/reiniciar_bot.sh;;
+todos) ./CliPDVs/reiniciar_pdvs/reiniciar_todos.sh;;
 voltar) ./CliPDVs/CliPDVs_beta.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
 sleep 2
-./CliPDVs/reiniciar_pdvs.sh;;
+./CliPDVs/reiniciar_pdvs/reiniciar_pdvs.sh;;
 esac
