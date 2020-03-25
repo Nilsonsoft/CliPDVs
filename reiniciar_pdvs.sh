@@ -64,7 +64,7 @@ e2) ./CliPDVs/reiniciar_pdvs/reiniciar_e02.sh;;
 25) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_25.sh;;
 bot) ./CliPDVs/reiniciar_pdvs/reiniciar_bot.sh;;
 todos) ./CliPDVs/reiniciar_pdvs/reiniciar_todos.sh;;
-voltar) ./CliPDVs/CliPDVs_beta.sh;;
+voltar) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
