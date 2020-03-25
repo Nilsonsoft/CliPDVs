@@ -37,37 +37,37 @@ echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara atualizar o caixa 05\033[0;32m."
 read opcion
 case $opcion in
-01) ./CliPDVs/atualizar_pdvs_cx_01.sh;;
-02) ./CliPDVs/atualizar_pdvs_cx_02.sh;;
-03) ./CliPDVs/atualizar_pdvs_cx_03.sh;;
-04) ./CliPDVs/atualizar_pdvs_cx_04.sh;;
-05) ./CliPDVs/atualizar_pdvs_cx_05.sh;;
-06) ./CliPDVs/atualizar_pdvs_cx_06.sh;;
-07) ./CliPDVs/atualizar_pdvs_cx_07.sh;;
-08) ./CliPDVs/atualizar_pdvs_cx_08.sh;;
-09) ./CliPDVs/atualizar_pdvs_cx_09.sh;;
-10) ./CliPDVs/atualizar_pdvs_cx_10.sh;;
-11) ./CliPDVs/atualizar_pdvs_cx_11.sh;;
-12) ./CliPDVs/atualizar_pdvs_cx_12.sh;;
-13) ./CliPDVs/atualizar_pdvs_cx_13.sh;;
-14) ./CliPDVs/atualizar_pdvs_cx_14.sh;;
-15) ./CliPDVs/atualizar_pdvs_cx_15.sh;;
-16) ./CliPDVs/atualizar_pdvs_cx_16.sh;;
-17) ./CliPDVs/atualizar_pdvs_cx_17.sh;;
-18) ./CliPDVs/atualizar_pdvs_cx_18.sh;;
-19) ./CliPDVs/atualizar_pdvs_cx_19.sh;;
-20) ./CliPDVs/atualizar_pdvs_cx_20.sh;;
-21) ./CliPDVs/atualizar_pdvs_cx_21.sh;;
-lan) ./CliPDVs/atualizar_pdvs_lan.sh;;
-e1) ./CliPDVs/atualizar_pdvs_e01.sh;;
-e2) ./CliPDVs/atualizar_pdvs_e02.sh;;
-25) ./CliPDVs/atualizar_pdvs_cx_25.sh;;
-bot) ./CliPDVs/atualizar_pdvs_bot.sh;;
-todos) ./CliPDVs/atualizar_pdvs_todos.sh;;
+01) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_01.sh;;
+02) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_02.sh;;
+03) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_03.sh;;
+04) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_04.sh;;
+05) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_05.sh;;
+06) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_06.sh;;
+07) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_07.sh;;
+08) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_08.sh;;
+09) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_09.sh;;
+10) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_10.sh;;
+11) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_11.sh;;
+12) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_12.sh;;
+13) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_13.sh;;
+14) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_14.sh;;
+15) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_15.sh;;
+16) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_16.sh;;
+17) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_17.sh;;
+18) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_18.sh;;
+19) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_19.sh;;
+20) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_20.sh;;
+21) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_21.sh;;
+lan) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_lan.sh;;
+e1) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_e01.sh;;
+e2) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_e02.sh;;
+25) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_cx_25.sh;;
+bot) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_bot.sh;;
+todos) ./CliPDVs/atualizar_pdvs/atualizar_pdvs_todos.sh;;
 voltar) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
 sleep 2
-./CliPDVs/atualizar_pdvs.sh;;
+./CliPDVs/atualizar_pdvs/atualizar_pdvs.sh;;
 esac
