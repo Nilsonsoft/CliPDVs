@@ -26,7 +26,7 @@ case $opcion in
 2) ./CliPDVs/atualizar_pdvs.sh;;
 3) ./CliPDVs/reiniciar_maxipos.sh;;
 4) ./CliPDVs/atualizar_imagem.sh;;
-5) ./CliPDVs/AtualizadorCliPDVs_beta.sh;;
+5) ./CliPDVs/AtualizadorCliPDVs.sh;;
 0) echo -e "\033[1;33m Você saiu do (CliPDV's). Até a próxima!!!\033[0m" 
 exit;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
