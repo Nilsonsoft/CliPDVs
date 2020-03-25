@@ -37,37 +37,37 @@ echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara reiniciar o MaxiPOS do caixa 05\033[0;32m."
 read opcion
 case $opcion in
-01) ./CliPDVs/reiniciar_maxipos_cx_01.sh;;
-02) ./CliPDVS/reiniciar_maxipos_cx_02.sh;;
-03) ./CliPDVS/reiniciar_maxipos_cx_03.sh;;
-04) ./CliPDVS/reiniciar_maxipos_cx_04.sh;;
-05) ./CliPDVS/reiniciar_maxipos_cx_05.sh;;
-06) ./CliPDVS/reiniciar_maxipos_cx_06.sh;;
-07) ./CliPDVS/reiniciar_maxipos_cx_07.sh;;
-08) ./CliPDVS/reiniciar_maxipos_cx_08.sh;;
-09) ./CliPDVS/reiniciar_maxipos_cx_09.sh;;
-10) ./CliPDVS/reiniciar_maxipos_cx_10.sh;;
-11) ./CliPDVS/reiniciar_maxipos_cx_11.sh;;
-12) ./CliPDVS/reiniciar_maxipos_cx_12.sh;;
-13) ./CliPDVS/reiniciar_maxipos_cx_13.sh;;
-14) ./CliPDVS/reiniciar_maxipos_cx_14.sh;;
-15) ./CliPDVS/reiniciar_maxipos_cx_15.sh;;
-16) ./CliPDVS/reiniciar_maxipos_cx_16.sh;;
-17) ./CliPDVS/reiniciar_maxipos_cx_17.sh;;
-18) ./CliPDVS/reiniciar_maxipos_cx_18.sh;;
-19) ./CliPDVS/reiniciar_maxipos_cx_19.sh;;
-20) ./CliPDVS/reiniciar_maxipos_cx_20.sh;;
-21) ./CliPDVS/reiniciar_maxipos_cx_21.sh;;
-lan) ./CliPDVs/reiniciar_maxipos_lan.sh;;
-e1) ./CliPDVs/reiniciar_maxipos_e01.sh;;
-e2) ./CliPDVs/reiniciar_maxipos_e02.sh;;
-25) ./CliPDVS/reiniciar_maxipos_cx_25.sh;;
-bot) ./CliPDVs/reiniciar_maxipos_bot.sh;;
-todos) ./CliPDVs/reiniciar_maxipos_todos.sh;;
-voltar) ./CliPDVs.sh;;
+01) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_01.sh;;
+02) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_02.sh;;
+03) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_03.sh;;
+04) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_04.sh;;
+05) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_05.sh;;
+06) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_06.sh;;
+07) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_07.sh;;
+08) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_08.sh;;
+09) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_09.sh;;
+10) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_10.sh;;
+11) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_11.sh;;
+12) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_12.sh;;
+13) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_13.sh;;
+14) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_14.sh;;
+15) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_15.sh;;
+16) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_16.sh;;
+17) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_17.sh;;
+18) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_18.sh;;
+19) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_19.sh;;
+20) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_20.sh;;
+21) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_21.sh;;
+lan) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_lan.sh;;
+e1) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_e01.sh;;
+e2) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_e02.sh;;
+25) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_25.sh;;
+bot) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_bot.sh;;
+todos) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_todos.sh;;
+voltar) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
 sleep 2
-./CliPDVs/reiniciar_maxipos.sh;;
+./CliPDVs/reiniciar_maxipos/reiniciar_maxipos.sh;;
 esac
