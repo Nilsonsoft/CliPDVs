@@ -23,10 +23,10 @@ echo -e "\033[0;32m |                                               |"
 echo -e "\033[0;33m |Digite 0 para voltar                           |\033[0m" 
 read opcion
 case $opcion in
-voltar) ./CliPDVs/CliPDVs.sh;;
+0) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
-*) echo "Terminal inexistente. Verifique se você digitou corretamente."
+*) echo "Opção inválida."
 sleep 2
 ./CliPDVs/outros/ids_balanca.sh;;
 esac
