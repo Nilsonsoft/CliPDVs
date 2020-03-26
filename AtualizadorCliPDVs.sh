@@ -14,7 +14,7 @@ rm -rf CliPDVs_beta
 sleep 3
 echo -e "\033[0;33m(CliPDVs) está sendo atualizado e será executado logo após . . .\033[0m" 
 sleep 3
-git clone https://github.com/nilsonlinux/CliPDVs_beta.git && cd ./CliPDVs_beta && chmod +x * && cd ../
+git clone https://github.com/nilsonlinux/CliPDVs.git && cd ./CliPDVs && chmod +x * && cd ../
 sleep 2
 echo -e "\033[0;33m(CliPDVs) Atualizado com sucesso. Inicializando...\033[0m" 
 sleep 3
