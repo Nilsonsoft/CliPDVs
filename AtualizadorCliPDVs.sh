@@ -14,7 +14,7 @@ rm -rf CliPDVs
 sleep 3
 echo -e "\033[0;33m(CliPDVs) está sendo atualizado e será executado logo após . . .\033[0m" 
 sleep 3
-rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs_beta.git && cd ./CliPDVs && chmod -R 777 ../CliPDVs/reiniciar_pdvs && chmod -R 777 ../CliPDVs/atualizar_imagem && chmod -R 777 ../CliPDVs/reiniciar_maxipos && chmod -R 777 ../CliPDVs && cd ../ && clear && ./CliPDVs/CliPDVs.sh
+cd ../ && rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs_beta.git && cd ./CliPDVs && chmod -R 777 ../CliPDVs/reiniciar_pdvs && chmod -R 777 ../CliPDVs/atualizar_imagem && chmod -R 777 ../CliPDVs/reiniciar_maxipos && chmod -R 777 ../CliPDVs && cd ../ && clear && ./CliPDVs/CliPDVs.sh
 sleep 2
 echo -e "\033[0;33m(CliPDVs) Atualizado com sucesso. Inicializando...\033[0m" 
 sleep 3
