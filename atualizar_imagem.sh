@@ -69,5 +69,5 @@ sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
 sleep 2
-./CliPDVs/atualizar_imagem/atualizar_imagem.sh;;
+./CliPDVs/atualizar_imagem.sh;;
 esac
