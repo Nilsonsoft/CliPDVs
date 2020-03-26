@@ -1,3 +1,3 @@
 # CliPDVs
 ## Comando para instalação 
-rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs_beta.git && cd ./CliPDVs && chmod -R 777 ../CliPDVs/reiniciar_pdvs && chmod -R 777 ../CliPDVs/atualizar_imagem && chmod -R 777 ../CliPDVs/reiniciar_maxipos && chmod -R 777 ../CliPDVs && cd ../ && clear && ./CliPDVs/CliPDVs.sh
+rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs.git && chmod -R 777 ./CliPDVs && clear && ./CliPDVs/CliPDVs.sh
