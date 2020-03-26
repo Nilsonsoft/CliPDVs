@@ -24,5 +24,5 @@ echo -e "\033[0;33m |Digite 0 para voltar                           |\033[0m"
 read opcion
 case $opcion in
 0) ./CliPDVs/CliPDVs.sh;;
-clear &&
+clear
 # © 2020 Nilsonlinux
