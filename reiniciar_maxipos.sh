@@ -64,7 +64,7 @@ e2) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_e02.sh;;
 25) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_cx_25.sh;;
 bot) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_bot.sh;;
 todos) ./CliPDVs/reiniciar_maxipos/reiniciar_maxipos_todos.sh;;
-voltar) ./CliPDVs/CliPDVs.sh;;
+0) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
