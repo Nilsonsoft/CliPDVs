@@ -18,7 +18,7 @@ rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs.git && chmod 
 sleep 2
 echo -e "\033[0;33m(CliPDVs) Atualizado com sucesso. Inicializando...\033[0m" 
 sleep 3
-clear &&
+clear
 ./CliPDVs/CliPDVs.sh
 sleep 2
 # © 2020 Nilsonlinux
