@@ -31,7 +31,7 @@ echo -e "\033[1;33m[126]\033[0m - Caixa 21 - \033[0;36mIP\033[0m ->\033[0;32m 19
 echo -e "\033[1;33m[128]\033[0m - \033[0;34mBoteco\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.129 \033[0m"
 echo -e "--------------------------------------------"
 echo -e "Digite \033[0;31m'todos'\033[0m sem as aspas, para reiniciar todos os terminais"
-echo -e "Digite \033[0;32m'voltar'\033[0m sem as aspas, para voltar para o menu inicial."
+echo -e "Digite \033[0;32m'0'\033[0m sem as aspas, para voltar para o menu inicial."
 echo -e "Digite \033[0;32m'sair'\033[0m sem as aspas, para fechar o script"
 echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara reiniciar o caixa 05\033[0;32m."
@@ -64,7 +64,7 @@ e2) ./CliPDVs/reiniciar_pdvs/reiniciar_e02.sh;;
 25) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_25.sh;;
 bot) ./CliPDVs/reiniciar_pdvs/reiniciar_bot.sh;;
 todos) ./CliPDVs/reiniciar_pdvs/reiniciar_todos.sh;;
-voltar) ./CliPDVs/CliPDVs.sh;;
+0) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
 *) echo "Terminal inexistente. Verifique se você digitou corretamente."
