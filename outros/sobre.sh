@@ -12,8 +12,8 @@ echo -e "\033[0;32m |\033[0m \033[0;35m Sistema PDV cli para profissionais da á
 echo -e "\033[0;32m |\033[0m \033[0;35m Desenvolvido por :\033[0;36m Nilsonlinux            \033[0m"
 echo -e "\033[0;32m |\033[0m \033[0;35m GitHub : \033[0;36mhttps://github.com/nilsonlinux/CliPDVs \033[0m"
 echo -e "\033[0;32m |\033[0m \033[0;35m Este sistema visa automatizar os processos  \033[0m"
-echo -e "\033[0;32m |\033[0m \033[0;35m logisticos. As informações contidas nestes scripts são \033[0m"
-echo -e "\033[0;32m |\033[0m \033[0;35m de uso exclusivo. Ajude no desenvolvimento do CliPDVs.                         \033[0m"
+echo -e "\033[0;32m |\033[0m \033[0;35m logisticos. As informações contidas nestes \033[0m"
+echo -e "\033[0;32m |\033[0m \033[0;35m scripts, são de uso exclusivo..                       \033[0m"
 echo -e "\033[0;32m '---------------------------------------\033[0m"
 echo -e "\033[0;33m Digite\033[0;32m 0\033[0;33m para voltar pro menu principal.\033[0m"
 read opcion
