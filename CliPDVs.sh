@@ -31,7 +31,7 @@ case $opcion in
 6) ./CliPDVs/outros/ids_balanca.sh;;
 7) ./CliPDVs/outros/sobre.sh;;
 8) ./CliPDVs/AtualizadorCliPDVs.sh;;
-0) echo -e "\033[1;33m Você saiu do (CliPDV's). Até a próxima!!!\033[0m" 
+0) echo -e "\033[1;32m Você fechou o script. Até a próxima!!!\033[0m" 
 exit;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;
