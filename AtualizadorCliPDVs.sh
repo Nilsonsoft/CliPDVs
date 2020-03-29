@@ -17,5 +17,4 @@ sleep 2
 echo -e "\033[0;33m(CliPDVs) Atualizado com sucesso. Inicializando...\033[0m"
 sleep 2
 clear
-./CliPDVs/CliPDVs.sh
 # © 2020 Nilsonlinux
