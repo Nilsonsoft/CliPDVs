@@ -31,9 +31,8 @@ case $opcion in
 6) ./CliPDVs/outros/ids_balanca.sh;;
 7) ./CliPDVs/outros/sobre.sh;;
 8) ./CliPDVs/AtualizadorCliPDVs.sh;;
-0) echo "CliPDVs está sendo finalizado. Até a próxima." 
+0) echo -e "\033[1;32m Você fechou o script. Até a próxima!!!\033[0m" 
 exit;;
-sleep 2
 *) echo "Opção inexistente. Verifique se você digitou corretamente."
 sleep 2
 ./CliPDVs/CliPDVs.sh;
