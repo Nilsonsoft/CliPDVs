@@ -14,7 +14,5 @@ echo -e "\033[0;33m(CliPDVs) está sendo atualizado e será executado logo após
 sleep 3
 rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs.git && chmod -R 777 ./CliPDVs && clear && ./CliPDVs/CliPDVs.sh
 sleep 2
-echo -e "\033[0;33m(CliPDVs) Atualizado com sucesso. Inicializando...\033[0m"
-sleep 2
 clear
 # © 2020 Nilsonlinux
