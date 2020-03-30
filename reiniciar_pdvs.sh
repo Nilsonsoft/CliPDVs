@@ -30,9 +30,9 @@ echo -e "\033[1;33m[125]\033[0m - \033[0;34mEletro 02\033[0m - \033[0;36mIP\033[
 echo -e "\033[1;33m[126]\033[0m - Caixa 21 - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.225 \033[0m"
 echo -e "\033[1;33m[128]\033[0m - \033[0;34mBoteco\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.129 \033[0m"
 echo -e "--------------------------------------------"
-echo -e "Digite \033[0;31m'todos'\033[0m sem as aspas, para reiniciar todos os terminais"
-echo -e "Digite \033[0;32m'0'\033[0m sem as aspas, para voltar para o menu inicial."
-echo -e "Digite \033[0;32m'sair'\033[0m sem as aspas, para fechar o script"
+echo -e "Digite \033[0;31mtodos\033[0m, para reiniciar todos os terminais"
+echo -e "Digite \033[0;32m0\033[0m, para voltar para o menu inicial."
+echo -e "Digite \033[0;32msair\033[0m, para fechar o script"
 echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara reiniciar o caixa 05\033[0;32m."
 read opcion
