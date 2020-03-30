@@ -28,6 +28,7 @@ echo -e "\033[1;33m[123]\033[0m - \033[0;34mLanchonete\033[0m - \033[0;36mIP\033
 echo -e "\033[1;33m[124]\033[0m - \033[0;34mEletro 01\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.117 \033[0m"
 echo -e "\033[1;33m[125]\033[0m - \033[0;34mEletro 02\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.225 \033[0m"
 echo -e "\033[1;33m[126]\033[0m - Caixa 21 - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.225 \033[0m"
+echo -e "\033[1;33m[127]\033[0m - \033[0;34mPDV - Reserva\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.138 \033[0m"
 echo -e "\033[1;33m[128]\033[0m - \033[0;34mBoteco\033[0m - \033[0;36mIP\033[0m ->\033[0;32m 192.168.3.129 \033[0m"
 echo -e "--------------------------------------------"
 echo -e "Digite \033[0;31mtodos\033[0m, para atualizar a imagem de todos os terminais"
@@ -62,6 +63,7 @@ lan) ./CliPDVs/atualizar_imagem/atualizar_imagem_lan.sh;;
 e1) ./CliPDVs/atualizar_imagem/atualizar_imagem_e01.sh;;
 e2) ./CliPDVs/atualizar_imagem.atualizar_imagem_e02.sh;;
 25) ./CliPDVs/atualizar_imagem/atualizar_imagem_cx_25.sh;;
+res) ./CliPDVs/atualizar_imagem/atualizar_imagem_res.sh;;
 bot) ./CliPDVs/atualizar_imagem/atualizar_imagem_bot.sh;;
 todos) ./CliPDVs/atualizar_imagem/atualizar_imagem_todos.sh;;
 0) ./CliPDVs/CliPDVs.sh;;
