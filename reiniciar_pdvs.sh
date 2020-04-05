@@ -36,8 +36,8 @@ echo -e "Digite \033[0;32m0\033[0m, para voltar para o menu inicial."
 echo -e "Digite \033[0;32msair\033[0m, para fechar o script"
 echo -e "--------------------------------------------"
 echo -e "DIGITE O NÚMERO DO PDV. EX: \033[0;31m05\033[0m \033[1;36mpara reiniciar o caixa 05\033[0;32m."
-read opcion
-case $opcion in
+read -p " ⇢ " opcao
+case $opcao in
 01) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_01.sh;;
 02) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_02.sh;;
 03) ./CliPDVs/reiniciar_pdvs/reiniciar_cx_03.sh;;
