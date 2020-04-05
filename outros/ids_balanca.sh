@@ -21,8 +21,8 @@ echo -e "\033[0;32m | | ⚖ 25 - PADARIA                            | |\033[0m"
 echo -e "\033[0;32m | | ⚖ 26 - PADARIA                            | |\033[0m" 
 echo -e "\033[0;32m | '-------------------------------------------' |" 
 echo -e "\033[0;32m |_/Digite 0 para voltar\________________________|\033[0m" 
-read opcion
-case $opcion in
+read -p " ⇢ " opcao
+case $opcao in
 0) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você fechou o (CliPDV's). Até a próxima!!!\033[0m"
 exit;;

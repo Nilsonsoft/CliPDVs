@@ -16,8 +16,8 @@ echo -e "\033[0;32m |\033[0m \033[0;35m logisticos. As informações contidas ne
 echo -e "\033[0;32m |\033[0m \033[0;35m scripts, são de uso exclusivo...                          \033[0m"
 echo -e "\033[0;32m '---------------------------------------                                      \033[0m"
 echo -e "\033[0;33m Digite\033[0;32m 0\033[0;33m para voltar pro menu principal.                  \033[0m"
-read opcion
-case $opcion in
+read -p " ⇢ " opcao
+case $opcao in
 0) ./CliPDVs/CliPDVs.sh;;
 sair) echo -e "\033[1;33m Você saiu do (CliPDV's). Até a próxima!!!                               \033[0m" 
 exit;;
