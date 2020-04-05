@@ -21,8 +21,8 @@ echo -e "\033[0;32m |-----------------------------------------------|\033[0m"
 echo -e "\033[0;32m | [\033[0;33m 0 \033[0m\033[0;32m]\033[0m\033[0m \033[1;32m Fechar o Script  \033[0m \033[0;32m                     | \033[0m"
 echo -e "\033[0;32m |-----------------------------------------------|\033[0m"
 echo -e "\033[0;32m |/ \033[0;33mDIGITE A OPÇÃO \033[0m\033[0;32m\_____________\033[0;36mby:Nilsonlinux\033[0;32m__|\033[0m"
-read opcion
-case $opcion in
+read -p " ⇢ " opcao
+case $opcao in
 1) ./CliPDVs/reiniciar_pdvs.sh;;
 2) ./CliPDVs/atualizar_pdvs.sh;;
 3) ./CliPDVs/reiniciar_maxipos.sh;;
