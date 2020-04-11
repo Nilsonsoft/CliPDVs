@@ -12,7 +12,7 @@ echo -e "\033[0;33m Atualizando (CliPDVs). Por favor aguarde . . .\033[0m"
 sleep 3
 echo -e "\033[0;33m(CliPDVs) está sendo atualizado e será executado logo após . . .\033[0m"
 sleep 3
-rm -rf CliPDVs && git clone https://github.com/nilsonlinux/kodig.git && chmod +x ./kodig/kodig.sh && clear && ./kodig/kodig.sh
+rm -rf CliPDVs && git clone https://github.com/nilsonlinux/CliPDVs.git && chmod +x ./CliPDVs/CliPDVs.sh && clear && ./CliPDVs/CliPDVs.sh
 sleep 2
 clear
 # © 2020 Nilsonlinux
