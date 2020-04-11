@@ -24,7 +24,7 @@ version='20200408'
      | |   | | | |_) | | | \ \ / / __|  
      | |___| | |  __/| |_| |\ V /\__ \    
       \____|_|_|_|   |____/  \_/ |___/ © 2020
- BETA                                          ${enda}
+              ${c}Versão :${enda} ${y}${version}  ${enda}
 ---------[ ${y}MENU PRINCIPAL  (CliPDVs)${enda} ]---------
  [ ${y}1${enda} ] ${bu}Reiniciar PDVs${enda}
  [ ${y}2${enda} ] ${bu}Atualizar Terminais${enda}
