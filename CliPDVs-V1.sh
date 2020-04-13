@@ -1993,7 +1993,7 @@ sobre () {
     de sua filial.${enda}
 
      ${b}Reporte${enda}
-    Se observar algum bug, favor informar ${g}Nilsonlinux${enda}:
+    Se observar algum bug, favor informar: ${g}Nilsonlinux${enda}
     ${u}${blue}https://t.me/nilsonlinux/${enda}.
     Se estiver executando em um computador Segure a tecla
     Ctrl e clique no link para ir."
