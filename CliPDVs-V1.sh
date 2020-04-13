@@ -64,7 +64,7 @@ clipdvsatualizar () {
   echo && echo -e " Preparando ${b}atualizações.${enda}"
 rm -rf CliPDVs-V1.sh && wget https://raw.githubusercontent.com/nilsonlinux/CliPDVs/master/CliPDVs-V1.sh && chmod +x ./CliPDVs-V1.sh
   echo -e " ${g}Atualização concluída${enda} ..."; sleep 2 && clear
-  echo && echo -en "${g}Sistema atualizado${enda}
+  echo && echo -en " ${g}Sistema atualizado${enda}
   ${y}Digite Enter para ir para o menu principal${enda}"
   read input
 }
