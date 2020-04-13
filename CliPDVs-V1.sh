@@ -33,7 +33,7 @@ logo () {
 '|.      .  ||   ||   ||       ||    ||    |||    . '|.. 
  ''|....'  .||. .||. .||.     .||...|'      |     |'..|' ®${enda}
  ${c}Automação  Comandos  Facilidade  Rapidez  Agilidade${endc}
-${r}Dev: Nilsonlinux${endc}    ${b}${w}Versão - ${version}${enda}    ${r}Script: clipdvs${endc}"
+${r}Dev: Nilsonlinux${endc}    ${b}${w}Versão - ${version}${enda}    ${r}Script: CliPDVs-V1${endc}"
     echo
 }
 
@@ -62,7 +62,7 @@ clipdvsatualizar () {
     *) echo " \"$option\" Opção inválida"; sleep 1; clipdvsatualizar ;;
   esac
   echo && echo -e " Preparando ${b}atualizações.${enda}"
-rm -rf kodig.sh && wget https://raw.githubusercontent.com/nilsonlinux/kodig/master/kodig.sh && chmod +x ./kodig.sh
+rm -rf CliPDVs-V1.sh && wget https://raw.githubusercontent.com/nilsonlinux/CliPDVs/master/CliPDVs-V1.sh && chmod +x ./CliPDVs-V1.sh
   echo -e " ${g}Atualização concluída${enda} ..."
   echo && echo -en " ${y}Digite Enter para ir para o menu principal"
   read input
