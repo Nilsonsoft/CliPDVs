@@ -469,7 +469,7 @@ saidarpdv () {
     echo && echo -e "Você executou o comando no${b}$1${enda}."
     echo -e " Comando disparado ${r}reboot${endc}no ${b}$1${endc}. Volte para o menu anterior."
     echo && echo -e " ${y}Digite Enter para retornar.${endc}"
-    read input
+    read input ; reiniciarpdvs ;
 }
 # Voltar clipdvs
 voltarrpdv () {
@@ -957,7 +957,7 @@ saidaapdv () {
     echo && echo -e "Você executou o comando no${b}$1${enda}."
     echo -e " Comando disparado ${r}reboot${endc} no ${b}$1${endc}. Volte para o menu anterior."
     echo && echo -e " ${y}Digite Enter para retornar.${endc}"
-    read input
+    read input ; atualizarpdvs ; 
 }
 # Atualizar PDVs
 atualizarpdvs () {
@@ -1430,7 +1430,7 @@ saidaaipdv () {
     echo && echo -e "Você executou o comando no${b}$1${enda}."
     echo -e " Comando disparado ${r}reboot${endc} no ${b}$1${endc}. Volte para o menu anterior."
     echo && echo -e " ${y}Digite Enter para retornar.${endc}"
-    read input
+    read input ; atualizaripdvs ;
 }
 # Atualizar IMAGEM
 atualizaripdvs () {
@@ -1903,7 +1903,7 @@ saidarmxpos () {
     echo && echo -e "Você executou o comando no${b}$1${enda}."
     echo -e " Comando disparado ${r}reboot${endc} no ${b}$1${endc}. Volte para o menu anterior."
     echo && echo -e " ${y}Digite Enter para retornar.${endc}"
-    read input
+    read input ; reiniciarmxpos ;
 }
 # Atualizar IMAGEM
 reiniciarmxpos () {
