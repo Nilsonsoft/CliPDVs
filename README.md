@@ -18,6 +18,9 @@ pkg update && pkg install wget git openssh sshpass && wget https://raw.githubuse
 ## Instalação Desktop (Archlinux, Majaro e outos derivados)
 #pacman -Syu && pacman -S wget git openssh sshpass && wget https://raw.githubusercontent.com/nilsonlinux/CliPDVs/master/CliPDVs-V1.sh && chmod +x ./CliPDVs-V1.sh && ./CliPDVs-V1.sh
 
+## Instalação Desktop (Solus)
+sudo eopkg up && sudo eopkg install wget git openssh sshpass && wget https://raw.githubusercontent.com/nilsonlinux/CliPDVs/master/CliPDVs-V1.sh && chmod +x ./CliPDVs-V1.sh && ./CliPDVs-V1.sh
+
 ## Atualização
   rm -rf CliPDVs-V1.sh && wget https://raw.githubusercontent.com/nilsonlinux/CliPDVs/master/CliPDVs-V1.sh && chmod +x ./CliPDVs-V1.sh
 
